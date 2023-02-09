@@ -1,0 +1,40 @@
+.header {
+    background-color: #232f33;
+}
+
+.header h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartIcon {
+    color: white;
+    font-size: 32px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.cartIcon span {
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    background-color: orange;
+    color: white;
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 15px;
+}
